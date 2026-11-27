@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>How hard is a problem?</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<nav class="top"><a href="../en.html">All explainers</a></nav>
+<h1>How hard is a problem?</h1>
+
+<p><strong>The short version:</strong> one branch of mathematics, the theory of computing, asks not “what is the answer?” but “how much work does it take to find it?” Its hardest questions are of the form “prove that no method, however clever, can do this faster”.</p>
+
+<h2>Counting the work</h2>
+<p>Take multiplying two long numbers by hand. Double their length and the school method takes about four times as many steps. Mathematicians describe a method by how fast its work grows as the problem gets bigger: doubling, quadrupling, or exploding. A method whose work grows gently can handle huge problems; one whose work explodes is useless beyond small ones, even on the fastest computer.</p>
+
+<h2>Faster methods: “upper bounds”</h2>
+<p>Finding a cleverer method shows that a problem can be done with at most so much work. This is called an upper bound. In 1969 the German mathematician Volker Strassen surprised everyone by showing that tables of numbers can be multiplied with fewer steps than the school method, and people have been improving on him ever since.</p>
+
+<h2>Proving that nothing is faster: “lower bounds”</h2>
+<p>The much harder job is to show that a problem needs at least so much work, whatever method anyone ever invents. That is a lower bound. It is hard because you have to rule out every possible method, including ones nobody has thought of. When a lower bound meets an upper bound, the question is closed: we know exactly how hard the problem is.</p>
+
+<h2>P versus NP</h2>
+<p>The most famous open question of this kind is called P versus NP. Many problems have answers that are easy to check but seem hard to find: a finished jigsaw puzzle is easy to check, but putting it together takes far longer. P versus NP asks whether every problem whose answer is easy to check is also, deep down, easy to solve. Almost everyone believes the answer is no, but nobody has proved it. A proof would be one of the biggest results in mathematics, and the security of much of today’s encryption rests on similar beliefs that have never been proved.</p>
+
+<h2>Why AI news mentions this</h2>
+<p>Results of this kind can be checked by computer, step by step, which makes them a field where AI can be tested fairly: a made-up proof does not get past the checker. That is one reason AI companies now report progress here. A checked proof shows the reasoning has no gaps; experts still need time to confirm that the statement proved is exactly the one that matters.</p>
+
+<p class="learn"><a href="../digests/2026-11-27.html">Back to the 27 November digest</a></p>
+</main>
+</body>
+</html>
